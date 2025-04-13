@@ -57,10 +57,10 @@ def calculate_month(year, month):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5003, debug=True)
 # Добавление траты
-#curl "http://localhost:5001/add/20231015/500"
+#curl "http://localhost:5003/add/20231015/500"
 
 # Запрос за месяц
-#curl "http://localhost:5001/calculate/2023/10"
+#curl "http://localhost:5003/calculate/2023/10"
 
 # Запрос за год
-#curl "http://localhost:5001/calculate/2023"
+#curl "http://localhost:5003/calculate/2023"
