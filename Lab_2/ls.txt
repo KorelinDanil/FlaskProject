@@ -1,0 +1,3 @@
+ls.txt
+Zadacha1.py
+Zadacha2.py
